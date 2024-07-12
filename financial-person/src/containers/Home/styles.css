@@ -27,17 +27,29 @@ h3 {
 }
 
 .card-saldo {
-    background-color: #D4DBF9;
+    background-color: #FFFFFF;
     margin-top: 24px;
     border-radius: 8px;
     height: 150px;
     width: 300px;
 
     margin-right: 30px;
+
+    border:#eff2f7;
+
+    & p {
+        /* color: #818794; */
+        color: #495057;
+        font-weight: bold;
+        padding-left: 10px;
+        padding-top: 10px;
+    }
+
+    /* #495057 */
 }
 
 .card-entrada {
-    background-color: #D4DBF9;
+    background-color: #EEF0FC;
     margin-top: 24px;
     border-radius: 8px;
     height: 150px;
@@ -61,8 +73,6 @@ h3 {
     justify-content: center;
 
 }
-
-
 
 input { 
     border: 2px solid #EFF2F7;
